@@ -1,28 +1,25 @@
 class Car {
-	//  carSpeed.number += 1;
-	constructor(){
-		this.speed;
-		console.log(this);
+	constructor(speed){
+		this.speed = 0;
 	}
-	// static number = 0
 	drive(newSpeed){
 		this.speed = newSpeed;
-		return this.newSpeed;
+		return newSpeed;
 	}
 }
 
-let car = new Car();
-car.drive(0);     // => returns 0
-console.log(car); // => { speed: 0 }
+// let car = new Car();
+// car.drive(0);     // => returns 0
+// console.log(car); // => { speed: 0 }
 
-car.drive(10);    // => returns 10
-console.log(car); // => { speed: 10 }
+// car.drive(10);    // => returns 10
+// console.log(car); // => { speed: 10 }
 
-car.drive(50);    // => returns 50
-console.log(car); // -> { speed: 50 }
+// car.drive(50);    // => returns 50
+// console.log(car); // -> { speed: 50 }
 
-car.drive(100);   // => returns 100
-console.log(car); // -> { speed: 100 }
+// car.drive(100);   // => returns 100
+// console.log(car); // -> { speed: 100 }
 
 
 /*****************************************************************************/
